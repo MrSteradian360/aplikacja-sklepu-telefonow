@@ -1,0 +1,33 @@
+Nasz projekt ma za zadanie zbierać dane dotyczące funkcjonowania internetowego sklepu sprzedaży telefonów. Kod wykorzystuje mechanizmy dziedziczenia, interfejsów, klas
+abstrakcyjnych oraz serializacji. Dodatkowo w kodzie znajdują się proste testy jednostkowe dla podstawowych klas.
+
+Klasy:
+Telefony - w tej klasie są zawarte zmienne danych technicznych telefonów, metody pozwalacjące na porównywanie i klonowanie obiektów oraz zmienna zliczająca.
+MagazynTelefonów - w tej klasie znajdują się metody wykorzystywane do dodawania, usuwania i szukania telefonów na liście.
+Pracownik - w tej klasie są zawarte zmienne opisujące pracowników oraz zmienna zliczająca, dziedziczy po klasie interesariusz.
+SpisPracowników - w tej klasie znajdują się metody wykorzystywane do dodawania, usuwania i szukania pracowników na liście.
+Interesariusz - w tej klasie są zawarte zmienne opisujące interesariuszy.
+Dostawca - w tej klasie są zawarte zmienne opisujące dostawców oraz zmienna zliczająca, dziedziczy po klasie interesariusz.
+SpisDostawców - w tej klasie znajdują się metody wykorzystywane do dodawania, usuwania i szukania dostawców na liście.
+Odbiorca - w tej klasie są zawarte zmienne opisujące odbiorców oraz zmienna zliczająca, dziedziczy po klasie interesariusz.
+SpisOdbiorców - w tej klasie znajdują się metody wykorzystywane do dodawania, usuwania i szukania odbiorców na liście.
+Trasakcja - w tej klasie są zawarte zmienne opisujące tranakcje oraz zmienna zliczająca.
+SpisTransakcji - w tej klasie znajdują się metody wykorzystywane do dodawania, usuwania i szukania transakcji na liście.
+ClassDiagram1 - zawiera diagram zależności między klasami.
+
+
+Funckje GUI:
+GUI po uruchomieniu programu otwiera okno z wyborem następujących kategorii: Telefony, Pracownicy, Transakjce, Odbiorcy, Dostawcy, Informacje.
+Po kliknięciu w wybraną kategorię otwiera się osobne okno.
+Każde oknno oprócz "Informacji" ma następującą funkcje:
+-wyświetla listę obiektów
+-po dwukrotnym kliknięciu na obiekt z listy wyświetla o nim dodatkowe informacje
+-posiada możliwość wyszukania obiektu z listy w czasie rzeczywistym
+-posiada możliwość dodawania i usuwania obiektów z listy
+-posiada możliwość zliczania obiektów na liście
+-posiada możliwość całkowitego wyczyszczenia listy
+Po każdym naciśnięciu przycisku dodania obiektu otwiera się nowe okno, które służy do wprowadzania danych o obiekcie. Jeśli dane są niepoprawne, nie ma możliwości
+zatwierdzenia nowego obiektu, dopóki dane nie zostaną zmienione na właściwe. Nowo dodany obiekt pojawia się na liście. W celu usunięcia obiektu można nacisnąć na niego lewym 
+przyciskiem myszy, a następnie kliknąć przycisk usuwania. Chcąc usunąć wiele obiektów można wpisać część nazwy, a następnie nacisnąć przycisk usuwania. 
+
+Okno "Informacje" zawiera informacje o autorach.
