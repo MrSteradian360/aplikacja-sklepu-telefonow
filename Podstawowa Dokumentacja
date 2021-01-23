@@ -19,7 +19,7 @@ ClassDiagram1 - zawiera diagram zależności między klasami.
 Funckje GUI:
 GUI po uruchomieniu programu otwiera okno z wyborem następujących kategorii: Telefony, Pracownicy, Transakjce, Odbiorcy, Dostawcy, Informacje.
 Po kliknięciu w wybraną kategorię otwiera się osobne okno.
-Każde oknno oprócz "Informacji" ma następującą funkcje:
+Każde okno oprócz "Informacji" ma następującą funkcje:
 -wyświetla listę obiektów
 -po dwukrotnym kliknięciu na obiekt z listy wyświetla o nim dodatkowe informacje
 -posiada możliwość wyszukania obiektu z listy w czasie rzeczywistym
