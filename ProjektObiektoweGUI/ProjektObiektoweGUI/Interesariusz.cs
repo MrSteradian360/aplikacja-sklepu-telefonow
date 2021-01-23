@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ProjektObiektoweGUI
 {
-    public class Interesariusz
+    abstract public class Interesariusz
     {
         string _nazwa;
         string _kodPocztowy;

@@ -79,6 +79,15 @@ namespace ProjektObiektoweGUI
             SpisDostawców.DodajDostawcę(dost0);
             SpisDostawców.DodajDostawcę(dost1);
 
+            //Transakcje
+            Transakcja trans0 = new Transakcja("Allegro", "Kupno", 3687, "T-00001", "27.12.2020", "Paweł Lisicki", "Jan Kowalski");
+            Transakcja trans1 = new Transakcja("Allegro", "Kupno", 3500, "T-00006", "21.01.2021", "Mikołaj Nowicki", "Paweł Wiśniewski");
+            Transakcja trans2 = new Transakcja("Allegro", "Kupno", 3500, "T-00007", "21.01.2021", "Mikołaj Nowicki", "Paweł Wiśniewski");
+
+            SpisTransakcji.DodajTransakcję(trans0);
+            SpisTransakcji.DodajTransakcję(trans1);
+            SpisTransakcji.DodajTransakcję(trans2);
+
             //Form1 form1 = new Form1();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

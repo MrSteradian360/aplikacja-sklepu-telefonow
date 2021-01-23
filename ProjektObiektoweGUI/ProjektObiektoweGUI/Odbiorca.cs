@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Xml.Serialization;
 
 namespace ProjektObiektoweGUI
 {
+    [XmlInclude(typeof(Interesariusz))]
     public class Odbiorca : Interesariusz
     {
-        static int licznikOdb = 0;
-        int _idOdb;
+        public static int licznikOdb = 0;
+        public int _idOdb;
 
         public Odbiorca(string nazwa, string adres, string miasto, string kodPocztowy) : base(nazwa, adres, miasto, kodPocztowy)
         {

@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Xml.Serialization;
 
 namespace ProjektObiektoweGUI
 {
+    [XmlInclude(typeof(Interesariusz))]
     public class Pracownik : Interesariusz
     {
-        static int licznikPrac = 0;
-        int _idPrac;
-        string _PESEL;
+        public static int licznikPrac = 0;
+        public int _idPrac;
+        public string _PESEL;
 
         public Pracownik(string nazwa, string adres, string miasto, string kodPocztowy) : base(nazwa, adres, miasto, kodPocztowy)
         {

@@ -19,6 +19,7 @@ namespace ProjektObiektoweGUI
         {
             bool b1 = true, b2 = true, b3 = true, b4 = true, b5 = true, b6 = true;
 
+
             //if (radioButton1.Checked) b1 = true;
             if (radioButton2.Checked) b1 = false;
             //if (radioButton13.Checked) b2 = true;
@@ -43,7 +44,13 @@ namespace ProjektObiektoweGUI
                 textBox13.Text != "" && textBox14.Text != "" && textBox15.Text != "" && 
                 textBox16.Text != "" && textBox17.Text != "" && textBox18.Text != "" && 
                 textBox19.Text != "" && textBox20.Text != "" && textBox21.Text != "" && 
-                textBox22.Text != "" && textBox24.Text != "" && textBox25.Text != "")
+                textBox22.Text != "" && textBox24.Text != "" && textBox25.Text != "" &&
+                decimal.TryParse(textBox13.Text, out _) && decimal.TryParse(textBox14.Text, out _) &&
+                decimal.TryParse(textBox15.Text, out _) && decimal.TryParse(textBox16.Text, out _) &&
+                decimal.TryParse(textBox17.Text, out _) && decimal.TryParse(textBox18.Text, out _) &&
+                int.TryParse(textBox19.Text, out _) && double.TryParse(textBox20.Text, out _) &&
+                double.TryParse(textBox21.Text, out _) && int.TryParse(textBox22.Text, out _) &&
+                int.TryParse(textBox24.Text, out _))
             {
                 MagazynTelefonów.Magazyn.Add(
                     new Telefon(textBox1.Text, textBox5.Text, textBox3.Text, textBox4.Text, textBox2.Text,

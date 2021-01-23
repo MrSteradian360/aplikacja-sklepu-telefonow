@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
+using System.Xml.Serialization;
 
 namespace ProjektObiektoweGUI
 {
@@ -37,6 +39,24 @@ namespace ProjektObiektoweGUI
             foreach (Dostawca t in SpisDost)
                 if (t.Equals(dostawca)) return true;
             return false;
+        }
+
+        public void ZapiszXML(string nazwaPliku)
+        {
+            using (StreamWriter writer = new StreamWriter(nazwaPliku))
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(SpisDostawców));
+                serializer.Serialize(writer, this);
+            }
+        }
+
+        public static SpisDostawców OdczytajXML(string nazwaPliku)
+        {
+            using (StreamReader reader = new StreamReader(nazwaPliku))
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(SpisDostawców));
+                return serializer.Deserialize(reader) as SpisDostawców;
+            }
         }
 
     }

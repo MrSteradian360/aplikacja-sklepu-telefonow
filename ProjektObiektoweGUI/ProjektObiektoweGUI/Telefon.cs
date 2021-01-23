@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Xml.Serialization;
+using System.IO;
 
 namespace ProjektObiektoweGUI
 {
-    public class Telefon
+    public class Telefon : IEquatable<Telefon>, ICloneable
     {
-        static int licznikTel = 1;
+        static int licznikTel = 0;
         int _idTel;
         string _marka;
         string _model;
@@ -102,6 +104,26 @@ namespace ProjektObiektoweGUI
         public override string ToString()
         {
             return String.Format("T-{0:D5} {1} {2}", IdTel, Marka.ToString() , Model.ToString());
+        }
+
+
+        public int CompareTo(Telefon t)
+        {
+            string x1 = String.Format("{0} {1}", this.Marka, this.Model);
+            string x2 = String.Format("{0} {1}", t.Marka, t.Model);
+            return x1.CompareTo(x2);
+        }
+
+        public bool Equals(Telefon t)
+        {
+            string x1 = String.Format("{0} {1}", this.Marka, this.Model);
+            string x2 = String.Format("{0} {1}", t.Marka, t.Model);
+            return x1==x2;
+        }
+
+        public object Clone()
+        {
+            return this.MemberwiseClone();
         }
 
     }

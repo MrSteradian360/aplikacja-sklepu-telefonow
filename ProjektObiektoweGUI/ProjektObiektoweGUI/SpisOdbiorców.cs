@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
+using System.Xml.Serialization;
 
 namespace ProjektObiektoweGUI
 {
-    class SpisOdbiorców// : Odbiorca
+    public class SpisOdbiorców// : Odbiorca
     {
-        static int liczbaOdb;
-        static List<Odbiorca> spisOdb = new List<Odbiorca>();
-        static List<string> listaOdb = new List<string>();
+        public static int liczbaOdb;
+        public static List<Odbiorca> spisOdb = new List<Odbiorca>();
+        public static List<string> listaOdb = new List<string>();
 
         public static int LiczbaOdb { get => liczbaOdb; set => liczbaOdb = value; }
         public static List<Odbiorca> SpisOdb { get => spisOdb; set => spisOdb = value; }
@@ -39,5 +41,22 @@ namespace ProjektObiektoweGUI
             return false;
         }
 
+        public void ZapiszXML(string nazwaPliku)
+        {
+            using (StreamWriter writer = new StreamWriter(nazwaPliku))
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(SpisOdbiorców));
+                serializer.Serialize(writer, this);
+            }
+        }
+
+        public static SpisOdbiorców OdczytajXML(string nazwaPliku)
+        {
+            using (StreamReader reader = new StreamReader(nazwaPliku))
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(SpisOdbiorców));
+                return serializer.Deserialize(reader) as SpisOdbiorców;
+            }
+        }
     }
 }
