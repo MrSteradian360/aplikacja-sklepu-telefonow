@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProjektObiektoweGUI.Interesariusz" Collapsed="true">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAIAAAAAAQAAgAAAgIAAAgAAAAAAA=</HashCode>
+      <FileName>Interesariusz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektObiektoweGUI.MagazynTelefonów" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAIAgAgCEEAAQIAAAACAQAABAECAAABAAAAAQAAAA=</HashCode>
+      <FileName>MagazynTelefonów.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektObiektoweGUI.Odbiorca" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAgAEAAAAAAAAAAgAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Odbiorca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektObiektoweGUI.Pracownik" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEBAAAAgBAAAAAUAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Pracownik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektObiektoweGUI.Program" Collapsed="true">
+    <Position X="5.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektObiektoweGUI.SpisDostawców" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAEAAAAAAQAABAGAAACAAAAAgAEAAAEEAAABAAA=</HashCode>
+      <FileName>SpisDostawców.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektObiektoweGUI.SpisOdbiorców" Collapsed="true">
+    <Position X="7.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EEAAAAFAAAAEAAAAAAAAEAAAABAAAAEgAAIEAAACAAA=</HashCode>
+      <FileName>SpisOdbiorców.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektObiektoweGUI.SpisPracowników" Collapsed="true">
+    <Position X="7.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAEAAAgAAAAAAAAAAAAAAAAAgCEAAEAkAABQAAg=</HashCode>
+      <FileName>SpisPracowników.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektObiektoweGUI.SpisTransakcji" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAQAAEEEAAAAIAAAACAIAAAABAAABAAAAAAAAA=</HashCode>
+      <FileName>SpisTransakcji.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektObiektoweGUI.Telefon" Collapsed="true">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BARiEgBEAcCAAlQEogIAtCAEBASwMABQBAiGQAACgBE=</HashCode>
+      <FileName>Telefon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProjektObiektoweGUI.Transakcja" Collapsed="true">
+    <Position X="5.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAEBAADAEgEICAAAgAAAAAACBAACAIKAAIAEgA=</HashCode>
+      <FileName>Transakcja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektObiektoweGUI.Dostawca" Collapsed="true">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEIAAAACAAACAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Dostawca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
