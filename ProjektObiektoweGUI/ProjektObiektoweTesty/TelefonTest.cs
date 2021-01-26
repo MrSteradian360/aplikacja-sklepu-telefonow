@@ -24,7 +24,7 @@ namespace ProjektObiektoweTesty
                 true, false, true, true, true, true,
                 151.00m, 71.80m, 7.90m, 6.28m, 168.00m, 2999.00m, 3500, 8, 256, 4, 16, "v5.0");
 
-            Assert.AreEqual("T-00001 Samsung Galaxy Note 10", t.ToString());
+            Assert.AreEqual("T-00000 Samsung Galaxy Note 10", t.ToString());
         }
 
 
