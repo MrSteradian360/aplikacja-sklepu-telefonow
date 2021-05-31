@@ -6,5 +6,5 @@ Mateusz Duma - kierowanie zespołem, koncepcja programu i klas, projekt GUI, stw
 
 Mikołaj Kasperek - stworzenie okien dotyczących transakcji, dostawców i informacji; klasy abstrakcyjnej; pomoc w tworzeniu metod i klas
 
-Błażej Gawęda - serializacja, diagram klas, testy jednostkowe, tworzenie okien związanych z odbiorcami i pracownikami, dane dotyczące obiektów
+Błażej Gawęda - diagram klas, testy jednostkowe, tworzenie okien związanych z odbiorcami i pracownikami, dane dotyczące obiektów
 
