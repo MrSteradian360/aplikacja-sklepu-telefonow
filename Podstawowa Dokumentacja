@@ -28,6 +28,7 @@ Każde okno - oprócz "Informacji" - ma następujące funkcjonalności:
 -posiada możliwość całkowitego wyczyszczenia listy
 Po każdym naciśnięciu przycisku dodania obiektu otwiera się nowe okno, które służy do wprowadzania danych o obiekcie. Jeśli dane są niepoprawne, nie ma możliwości
 zatwierdzenia nowego obiektu, dopóki dane nie zostaną zmienione na właściwe. Nowo dodany obiekt pojawia się na liście. W celu usunięcia obiektu można nacisnąć
-na niego lewym przyciskiem myszy, a następnie kliknąć przycisk usuwania. Chcąc usunąć wiele obiektów można wpisać część nazwy, a następnie nacisnąć przycisk usuwania. 
+na niego lewym przyciskiem myszy, a następnie kliknąć przycisk usuwania. Chcąc usunąć wiele obiektów można wpisać część nazwy, a następnie nacisnąć przycisk 
+usuwania. 
 
 Okno "Informacje" zawiera informacje o autorach.
