@@ -1,5 +1,5 @@
-Nasz projekt ma za zadanie zbierać dane dotyczące funkcjonowania internetowego sklepu sprzedaży telefonów. Kod wykorzystuje mechanizmy dziedziczenia, interfejsów, klas
-abstrakcyjnych oraz serializacji. Dodatkowo w kodzie znajdują się proste testy jednostkowe dla podstawowych klas.
+Nasz projekt ma za zadanie zbierać dane dotyczące funkcjonowania internetowego sklepu sprzedaży telefonów. Kod wykorzystuje min. mechanizmy dziedziczenia, interfejsów 
+czy też klas abstrakcyjnych. Dodatkowo w kodzie znajdują się proste testy jednostkowe dla podstawowych klas.
 
 Klasy:
 Telefony - w tej klasie są zawarte zmienne danych technicznych telefonów, metody pozwalacjące na porównywanie i klonowanie obiektów oraz zmienna zliczająca.
